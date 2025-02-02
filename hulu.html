@@ -42,7 +42,47 @@
 </head>
 
 <body>
- 
+  <header class="container mx-auto font-sora bg-pink-200">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="">
+          <div class="flex gap-4 items-center">
+            <img class="" src="images/logo-header.png" alt="">
+            <a class="text-2xl hidden lg:flex">Browse <span class="text-yellow-400">4</span>Pets</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Find a pet</a></li>
+          <li><a>Breeds</a></li>
+          <li><a>Contact us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="hidden lg:flex justify-center items-center gap-8">
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-solid fa-magnifying-glass "></i>
+          <a class="border border-yellow-400 btn btn-outline btn-warning px-3 py-2 rounded-lg" href="">Login</a>
+          <a class="btn bg-firstbaton">Register</a>
+        </div>
+        <div class="dropdown ">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 -ml-32 w-44 rounded-box z-[1] mt-3 shadow">
+            <li><a>Find a pet</a></li>
+            <li><a>Breeds</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <main class="font-adlam-display">
     <!-- Banner section -->
